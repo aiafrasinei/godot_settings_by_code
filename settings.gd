@@ -4,7 +4,7 @@ extends Node
 var config = ConfigFile.new()
 
 func _on_tree_entered() -> void:
-	print(OS.get_user_data_dir())
+	#print(OS.get_user_data_dir())
 	config.set_value("Settings", "Fullscreen", false)
 	config.set_value("Settings", "Resolution", "Desktop")
 	config.save("user://settings.cfg")

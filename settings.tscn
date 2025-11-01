@@ -76,9 +76,12 @@ theme_override_constants/margin_top = 15
 [node name="VFlowContainer" type="VFlowContainer" parent="Panel/TabContainer/Help/MarginContainer"]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="Panel/TabContainer/Help/MarginContainer/VFlowContainer"]
+[node name="Help" type="Label" parent="Panel/TabContainer/Help/MarginContainer/VFlowContainer"]
 layout_mode = 2
-text = "Help tab"
+text = "Help for your game
+Add some information here
+
+"
 
 [node name="LinkButton" type="LinkButton" parent="Panel/TabContainer/Help/MarginContainer/VFlowContainer"]
 layout_mode = 2
